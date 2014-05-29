@@ -18,6 +18,7 @@
 #include "random.h"
 #include "point.h"
 #include "graph.h"
+#include "vertex.h"
 
 using namespace std;
 
