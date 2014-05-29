@@ -50,3 +50,14 @@ void Vertex::setMinDistance(double x){
 double Vertex::getMinDistance(){
     return minDistance;
 }
+
+bool Vertex::operator()(Vertex* a, Vertex* b){
+    if (a->minDistance > b->minDistance){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+ostream& operator<<(ostream& out, Vertex& vertex){
+}

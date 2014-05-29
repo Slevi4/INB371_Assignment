@@ -2,7 +2,6 @@
 #include <cmath>
 
 
-using namespace std;
 
 Point::Point(double x, double y){
     this->x = x;

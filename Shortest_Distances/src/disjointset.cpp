@@ -1,5 +1,5 @@
 #include "disjointset.h"
-#include <vector>
+
 
 
 DisjointSet::DisjointSet(int N){
