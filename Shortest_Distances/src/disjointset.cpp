@@ -3,7 +3,6 @@
 
 
 DisjointSet::DisjointSet(int N){
-    size = N;
     this->N = N;
     id = new int[N];
     for (int i = 0; i < N; i++){

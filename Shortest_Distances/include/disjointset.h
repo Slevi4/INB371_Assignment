@@ -16,7 +16,7 @@ class DisjointSet
     private:
         int* id;
         int N;
-        int size;
+        int size[];
 };
 
 #endif // DISJOINTSET_H
