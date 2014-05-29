@@ -34,7 +34,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/point.h" />
 		<Unit filename="include/random.h" />
+		<Unit filename="src/point.cpp" />
 		<Unit filename="src/random.cpp" />
 		<Unit filename="src/roads.cpp" />
 		<Extensions>
