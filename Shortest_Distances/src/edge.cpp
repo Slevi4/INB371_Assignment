@@ -1,11 +1,26 @@
 #include "edge.h"
+#include <ostream>
 
-Edge::Edge()
-{
-    //ctor
+Edge::Edge(){
 }
 
-Edge::~Edge()
-{
-    //dtor
+Edge::Edge(Vertex*, Vertex*, double){
+}
+
+Edge::~Edge(){
+}
+
+Vertex* Edge::getSource(){
+}
+
+Vertex* Edge::getDestination(){
+}
+
+double Edge::getWeight(){
+}
+
+bool Edge::operator()(Edge*, Edge*){
+}
+
+ostream& operator<<(ostream& out, Edge& edge){
 }

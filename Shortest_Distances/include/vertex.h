@@ -2,6 +2,9 @@
 #define VERTEX_H
 
 #include <set>
+#include <ostream>
+
+using namespace std;
 
 class Vertex
 {

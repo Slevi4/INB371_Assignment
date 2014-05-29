@@ -1,31 +1,55 @@
 # depslib dependency file v1.0
-1401329860 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\random.cpp
+1401342804 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\random.cpp
 	<cstdlib>
 	<ctime>
 	"random.h"
 
 1401329818 c:\users\shannon\desktop\codeblocks\shortest_distances\include\random.h
 
-1401332763 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\point.cpp
+1401341404 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\point.cpp
 	"point.h"
 	<cmath>
-	<string>
 
-1401332592 c:\users\shannon\desktop\codeblocks\shortest_distances\include\point.h
-	<string>
+1401342668 c:\users\shannon\desktop\codeblocks\shortest_distances\include\point.h
+	<ostream>
 
 1401334383 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\disjointset.cpp
 	"disjointset.h"
 
 1401334383 c:\users\shannon\desktop\codeblocks\shortest_distances\include\disjointset.h
 
-1401334290 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\edge.cpp
+1401342639 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\edge.cpp
 	"edge.h"
+	<ostream>
 
-1401334290 c:\users\shannon\desktop\codeblocks\shortest_distances\include\edge.h
+1401342611 c:\users\shannon\desktop\codeblocks\shortest_distances\include\edge.h
+	<ostream>
+	"vertex.h"
 
-1401334313 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\graph.cpp
+1401342651 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\graph.cpp
 	"graph.h"
+	<ostream>
 
-1401334313 c:\users\shannon\desktop\codeblocks\shortest_distances\include\graph.h
+1401341967 c:\users\shannon\desktop\codeblocks\shortest_distances\include\graph.h
+	"vertex.h"
+	"edge.h"
+	<queue>
+	<ostream>
+
+1401341689 c:\users\shannon\desktop\codeblocks\shortest_distances\include\vertex.h
+	<set>
+	<ostream>
+
+1401335351 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\roads.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"random.h"
+	"point.h"
+	"graph.h"
+	"vertex.h"
+
+1401335902 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\vertex.cpp
+	"vertex.h"
+	<set>
 

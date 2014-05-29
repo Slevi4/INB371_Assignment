@@ -13,6 +13,11 @@ int Random::randomInteger(int low, int high) {
    return low + k;
 }
 
+double Random::randomReal(double low, double high){
+    double d = double(rand()) / (double(RAND_MAX) + 1);
+    return low + d * (high - low);
+}
+
 bool Random::randomChance(double p) {
    return randomReal(0, 1) < p;
 }
