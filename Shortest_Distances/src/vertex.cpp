@@ -5,8 +5,8 @@
 Vertex::Vertex(){
 }
 
-Vertex::Vertex(unsigned int x){
-    identifier = x;
+Vertex::Vertex(unsigned int theID){
+    identifier = theID;
 }
 
 Vertex::~Vertex(){
@@ -44,8 +44,8 @@ unsigned int Vertex::getPredecessorId(){
     return predecessorId;
 }
 
-void Vertex::setMinDistance(double x){
-    minDistance = x;
+void Vertex::setMinDistance(double minDist){
+    minDistance = minDist;
 }
 
 double Vertex::getMinDistance(){

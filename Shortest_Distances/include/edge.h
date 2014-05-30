@@ -21,7 +21,7 @@ class Edge
     private:
         Vertex* source;
         Vertex* destination;
-        double wight;
+        double weight;
 };
 
 #endif // EDGE_H
