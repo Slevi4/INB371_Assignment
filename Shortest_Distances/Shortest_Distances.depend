@@ -6,12 +6,14 @@
 
 1401329818 c:\users\shannon\desktop\codeblocks\shortest_distances\include\random.h
 
-1401349857 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\point.cpp
+1401470502 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\point.cpp
 	"point.h"
 	<cmath>
+	<iostream>
+	<sstream>
 
-1401349886 c:\users\shannon\desktop\codeblocks\shortest_distances\include\point.h
-	<ostream>
+1401470630 c:\users\shannon\desktop\codeblocks\shortest_distances\include\point.h
+	<iostream>
 
 1401349662 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\disjointset.cpp
 	"disjointset.h"
@@ -40,7 +42,7 @@
 	<set>
 	<ostream>
 
-1401335351 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\roads.cpp
+1401466416 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\roads.cpp
 	<iostream>
 	<fstream>
 	<iomanip>
@@ -49,7 +51,8 @@
 	"graph.h"
 	"vertex.h"
 
-1401349169 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\vertex.cpp
+1401470553 source:c:\users\shannon\desktop\codeblocks\shortest_distances\src\vertex.cpp
 	"vertex.h"
 	<set>
+	<sstream>
 

@@ -1,5 +1,6 @@
 #include "vertex.h"
 #include <set>
+#include <sstream>
 
 Vertex::Vertex(){
 }
@@ -15,12 +16,12 @@ unsigned int Vertex::getId(){
     return identifier;
 }
 
-void Vertex::addAdjacency(unsigned int){
-    //TODO
+void Vertex::addAdjacency(unsigned int number){
+    adjacencies.insert(number);
 }
 
 set<unsigned int>* Vertex::getAdjacencies(){
-    //TODO
+    return &adjacencies;
 }
 
 void Vertex::setDiscovered(bool theBool){
@@ -60,4 +61,9 @@ bool Vertex::operator()(Vertex* a, Vertex* b){
 }
 
 ostream& operator<<(ostream& out, Vertex& vertex){
+    stringstream ss;
+    ss << vertex.getId();
+    string vertexString = ss.str();
+    out << vertexString;
+    return out;
 }

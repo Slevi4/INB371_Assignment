@@ -1,7 +1,9 @@
 #include "point.h"
 #include <cmath>
+#include <iostream>
+#include <sstream>
 
-
+using namespace std;
 
 Point::Point(double x, double y){
     this->x = x;
@@ -18,5 +20,13 @@ double Point::distanceTo(Point *otherPoint){
     return sqrt(dx * dx + dy * dy);
 }
 
-ostream& operator<<(ostream& out, Point* point){
+ostream &operator<<(ostream& out, Point& point){
+    stringstream ss;
+    ss << point.x;
+    string xString = ss.str();
+    ss << point.y;
+    string yString = ss.str();
+    string thePoint = xString + yString;
+    out << thePoint;
+    return out;
 }
